@@ -12,7 +12,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
        <span>Meanwile you can go to my Linkedin or download mi CV</span>
-       <button>Download CV</button>
+       <button>Download</button>
         <a
           className="App-link"
           href="https://www.linkedin.com/in/virginiakmartinez/"
