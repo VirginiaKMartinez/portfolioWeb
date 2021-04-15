@@ -1,0 +1,12 @@
+.portada, .aboutMe, .experiencia, .estudios, .idiomas, .techDesign, .contact{
+    height: 300px;
+    width: 100%;
+}
+.aboutMe, .estudios, .techDesign{
+    background-color: #666666;
+}
+span{
+    
+    margin: auto;
+    text-align: center;
+}
