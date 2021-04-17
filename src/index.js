@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import LottieWonderWoman from './js/components/LottieWoderwoman';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <LottieWonderWoman />
   </React.StrictMode>,
   document.getElementById('root')
 );
