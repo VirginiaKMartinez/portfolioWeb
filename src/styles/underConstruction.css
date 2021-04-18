@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapperBody{
+    margin: 16px;
+}
+.title, .helloText, .descriptText {
+    text-align: center;
+}
