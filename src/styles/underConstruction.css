@@ -3,8 +3,20 @@
 }
 
 .wrapperBody{
-    margin: 16px;
+    background-color: #f5fbff;
+    padding: 16px;
+    
 }
 .title, .helloText, .descriptText {
     text-align: center;
+    color: #333333;
+}
+.titleIcons{
+    text-align: center;
+}
+.fa-figma{
+    color:#a50000;
+}
+.fa-heart, .fa-code{
+    color:#333333;
 }

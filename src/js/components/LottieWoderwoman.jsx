@@ -8,6 +8,11 @@ const LottieWonderWoman = () => {
 
     return ( 
          <div className='wrapperBody'>
+             <div className="titleIcons">
+                <i className="fab fa-figma"></i>
+                <i className="fas fa-heart"></i>
+                <i className="fas fa-code"></i>
+             </div>
             <h1 className="title">Page Under Construction</h1>
             <h3 className="helloText">Hi, I'm Virginia and I'm a FrontEnd Developer and UX / UI Designer</h3>
             <div className="descriptText">
