@@ -3,20 +3,47 @@
 }
 
 .wrapperBody{
-    background-color: #f5fbff;
-    padding: 16px;
+    background-color: #fdfdfd;
+    
     
 }
-.title, .helloText, .descriptText {
+.headBlock{
+    background-color: #f5fbff;
+    padding: 16px;
+}
+.title{
     text-align: center;
     color: #333333;
 }
-.titleIcons{
+.descriptText{
+    color: #333333;
     text-align: center;
 }
-.fa-figma{
-    color:#a50000;
+.iconsFigmaLoveCode{
+    text-align: center;
+    margin: 32px 16px 32px 16px;
 }
-.fa-heart, .fa-code{
+.fa-heart{
+    font-size: 2rem;
+    color:#a50000;
+    margin: 0 4vw 0 4vw;
+}
+.fa-figma, .fa-code, .fa-drafting-compass{
+    font-size: 2.5rem;
     color:#333333;
+}
+.fa-drafting-compass{
+    font-size: 3rem;
+    text-align: center;
+}
+.textAndLottie{
+    background-color: #f5fbff;
+    padding: 32px 16px 32px 16px;
+
+}
+.infoContact{
+    padding: 32px 16px 32px 16px;
+}
+.longParagraph{
+    text-align: center !important;
 }
