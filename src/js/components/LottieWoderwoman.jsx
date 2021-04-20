@@ -9,9 +9,10 @@ const LottieWonderWoman = () => {
     return ( 
          <div className='wrapperBody'>
             <div className="headBlock">
-                <i className="fas fa-exclamation-triangle"></i>
+                {/* <i className="fas fa-exclamation-triangle"></i> */}
                 <h1 className="titleH1">Portfolio</h1>
                 <h2 className="titleH2">Under Construction</h2>
+                <img src="/Users/virginiamartinezfranco/Desktop/portfolioWeb/src/img/rocket.png" alt="rocket_image"/>
             </div>
             <div className="iconsFigmaLoveCode">
                 <h3 className="helloText">Hi, I'm Virginia!<br></br>I'm a FrontEnd Developer<br></br>and a UX/UI Designer</h3>

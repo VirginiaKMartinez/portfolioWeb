@@ -8,8 +8,9 @@
     
 }
 .headBlock{
-    background-color: #f5fbff;
+    background-color: #fdfdfd;
     padding: 16px;
+    height: 500px;
 }
 .fa-exclamation-triangle{
     color: #FFC803;
@@ -20,10 +21,15 @@
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     color: #333333;
-    font-size: 61px;;
+    font-size: 61px;
+    margin-bottom: -16px;
 }
 .titleH2{
+    font-family: 'Roboto Mono', monospace;
     font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+
 }
 .titleH2, .helloText{
     font-family: 'Roboto Mono', monospace;
