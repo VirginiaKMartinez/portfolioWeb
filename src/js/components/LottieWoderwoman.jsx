@@ -27,17 +27,25 @@ const LottieWonderWoman = () => {
              </div>
             <div className="textAndLottie">
                 <LottieAnimation lotti={wonderWoman} height={300} width={300} />
-                <span className="longParagraph">I'm working very hard to design and develop my web portfolio with React.js. Meanwhile, you can enjoy Wonder Woman watching over the sky.
-                    An animation that I have created with After Effects, Lottie plugin and implemented in my code.
-                </span>
+                <p className="longParagraph">I'm working very hard to design and develop my web portfolio with <b>React.js</b>. Meanwhile, you can enjoy Wonder Woman watching over the sky. An animation I created with <b>After Effects, Lottie plugin</b> and <b>implemented in my code</b>.
+                </p>
             </div>
             <div className="infoContact">
-                <span className="shortParagraph">You can also visit my Linkedin profile </span>
-                <i className="fab fa-linkedin"></i>
-                <br></br>
-                <span className="shortParagraph">Or you can Download my CV in pdf</span>
-                <br></br>
-                <button>Download</button>
+                <h3 className="contactQuestion">
+                    Do you want<br></br>to <b>contact me</b>?
+                </h3>
+                    <p className="shortParagraph">
+                        <i className="fab fa-linkedin"></i>
+                        Linkedin profile
+                    </p>
+                    <p className="shortParagraph">
+                        <i className="fab fa-github"></i>
+                        GitHub repositories
+                    </p>
+                    <p className="shortParagraph">
+                        <i className="fas fa-file-pdf"></i>
+                        Download my CV
+                    </p>
             </div>
         </div>
     )
