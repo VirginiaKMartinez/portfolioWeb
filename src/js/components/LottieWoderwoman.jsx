@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import LottieAnimation from '../../lottie/Lottie.js';
 import wonderWoman from '../../lottie/superhero_01.json';
 import '../../styles/underConstruction.css';
 import rocket from '../../img/rocket.png';
 import figma from '../../img/figma.svg';
-import code from '../../img/code.svg'
+import code from '../../img/code.svg';
 
 
 const LottieWonderWoman = () => {
@@ -27,17 +28,20 @@ const LottieWonderWoman = () => {
              </div>
             <div className="textAndLottie">
                 <LottieAnimation lotti={wonderWoman} height={300} width={300} />
-                <p className="longParagraph">I'm working very hard to design and develop my web portfolio with <b>React.js</b>. Meanwhile, you can enjoy Wonder Woman watching over the sky. An animation I created with <b>After Effects, Lottie plugin</b> and <b>implemented in my code</b>.
+                <p className="longParagraph">I'm working very hard to design and develop<br></br>my portfolio with <b>React</b>.<br></br><br></br>Meanwhile, you can enjoy Wonder Woman watching over the sky. An animation I created with <b>After Effects, Lottie plugin</b> and <b>implemented in my code</b>.
                 </p>
             </div>
             <div className="infoContact">
                 <h3 className="contactQuestion">
                     Do you want<br></br>to <b>contact me</b>?
                 </h3>
-                    <p className="shortParagraph">
+                <Link to={'https://www.linkedin.com/in/virginiakmartinez/'}>
+                <p className="shortParagraph">
                         <i className="fab fa-linkedin"></i>
                         Linkedin profile
                     </p>
+                </Link>
+                    
                     <p className="shortParagraph">
                         <i className="fab fa-github"></i>
                         GitHub repositories
