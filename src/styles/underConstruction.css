@@ -128,3 +128,9 @@
     font-size: 20px;
     margin-right: 16px;
 }
+.linksContact{
+    text-decoration: none;
+}
+.linksContact :hover, .linksContact :active{
+    color: #00bef3;
+}
