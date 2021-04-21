@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import LottieAnimation from '../../lottie/Lottie.js';
 import wonderWoman from '../../lottie/superhero_01.json';
 import '../../styles/underConstruction.css';
@@ -35,21 +35,25 @@ const LottieWonderWoman = () => {
                 <h3 className="contactQuestion">
                     Do you want<br></br>to <b>contact me</b>?
                 </h3>
-                <Link to={'https://www.linkedin.com/in/virginiakmartinez/'}>
-                <p className="shortParagraph">
+                <a href="https://www.linkedin.com/in/virginiakmartinez/">
+                    <p className="shortParagraph">
                         <i className="fab fa-linkedin"></i>
                         Linkedin profile
-                    </p>
-                </Link>
-                    
+                    </p></a>
+                
+                
+                    <a href="https://github.com/VirginiaKMartinez">
                     <p className="shortParagraph">
                         <i className="fab fa-github"></i>
                         GitHub repositories
                     </p>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1zFMuJ6QDjhJeTxNOljLSLsuX1Iz23q0P/view?usp=sharing">
                     <p className="shortParagraph">
                         <i className="fas fa-file-pdf"></i>
                         Download my CV
                     </p>
+                    </a>
             </div>
         </div>
     )
