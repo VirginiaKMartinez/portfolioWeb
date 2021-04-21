@@ -39,21 +39,20 @@ const LottieWonderWoman = () => {
                     <p className="shortParagraph">
                         <i className="fab fa-linkedin"></i>
                         Linkedin profile
-                    </p></a>
-                
-                
-                    <a href="https://github.com/VirginiaKMartinez">
+                    </p>
+                </a>
+                <a href="https://github.com/VirginiaKMartinez">
                     <p className="shortParagraph">
                         <i className="fab fa-github"></i>
-                        GitHub repositories
+                            GitHub repositories
                     </p>
-                    </a>
-                    <a href="https://drive.google.com/file/d/1zFMuJ6QDjhJeTxNOljLSLsuX1Iz23q0P/view?usp=sharing">
+                </a>
+                <a href="https://drive.google.com/file/d/1zFMuJ6QDjhJeTxNOljLSLsuX1Iz23q0P/view?usp=sharing">
                     <p className="shortParagraph">
                         <i className="fas fa-file-pdf"></i>
                         Download my CV
                     </p>
-                    </a>
+                </a>
             </div>
         </div>
     )
