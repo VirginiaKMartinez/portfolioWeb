@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import LottieWonderWoman from './js/components/LottieWoderwoman';
+import UnderConstruction from './js/components/UnderConstruction';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <LottieWonderWoman />
+    <UnderConstruction />
   </React.StrictMode>,
   document.getElementById('root')
 );
