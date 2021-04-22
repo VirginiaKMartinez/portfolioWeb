@@ -36,20 +36,20 @@ const LottieWonderWoman = () => {
                     Do you want<br></br>to <b>know more</b>?
                 </h3>
                 <div>
-                <a className="linksContact" href="https://www.linkedin.com/in/virginiakmartinez/">
+                <a className="linksContact" href="https://www.linkedin.com/in/virginiakmartinez/" target="_blank" rel="noreferrer">
                     <p className="shortParagraph">
                         <i className="fab fa-linkedin"></i>
                         Linkedin profile
                     </p>
                 </a>
-                <a className="linksContact" href="https://github.com/VirginiaKMartinez">
+                <a className="linksContact" href="https://github.com/VirginiaKMartinez" target="_blank" rel="noreferrer">
                     <p className="shortParagraph">
                         <i className="fab fa-github"></i>
                             GitHub repositories
                     </p>
                 </a>
                 
-                <a className="linksContact" href="https://drive.google.com/file/d/1zFMuJ6QDjhJeTxNOljLSLsuX1Iz23q0P/view?usp=sharing">
+                <a className="linksContact" href="https://drive.google.com/file/d/1zFMuJ6QDjhJeTxNOljLSLsuX1Iz23q0P/view?usp=sharing" target="_blank" rel="noreferrer">
                     <p className="shortParagraph">
                         <i className="fas fa-file-pdf"></i>
                         Download my CV
