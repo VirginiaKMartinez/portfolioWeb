@@ -48,6 +48,7 @@ const LottieWonderWoman = () => {
                             GitHub repositories
                     </p>
                 </a>
+                
                 <a className="linksContact" href="https://drive.google.com/file/d/1zFMuJ6QDjhJeTxNOljLSLsuX1Iz23q0P/view?usp=sharing">
                     <p className="shortParagraph">
                         <i className="fas fa-file-pdf"></i>
