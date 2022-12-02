@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapperBody{
+    background-color: #fdfdfd;
+    
+    
+}
+.headBlock{
+    background-color: #fdfdfd;
+    padding: 16px;
+    height: 500px;
+}
+.fa-exclamation-triangle{
+    color: #FFC803;
+    font-size: 70px;
+    display: flex;
+}
+.titleH1{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: #333333;
+    font-size: 61px;
+    margin-bottom: -16px;
+}
+.titleH2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+
+}
+.helloText{
+    margin:0 0;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #fdfdfd;
+}
+.titleH2{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: #333333;
+}
+.descriptText{
+    color: #333333;
+    text-align: center;
+}
+.textIconsFigmaLoveCode{
+    background: linear-gradient(180deg, #69C6DF 0%, #21BBE4 100%);
+    height: 330px;
+    text-align: center;
+    /* margin: 32px 16px 32px 16px; */
+    padding: 32px;
+}
+.designLoveCode{
+    margin: auto;
+    margin-top: 36px;
+}
+.fa-heart{
+    font-size: 2rem;
+    color:#E3491B;
+    margin: 0 4vw 0 4vw;
+    vertical-align: top;
+    padding-top: 35px;
+
+}
+.fa-figma, .fa-code{
+    font-size: 2.5rem;
+    color:#333333;
+}
+.fa-drafting-compass{
+    font-size: 3rem;
+    text-align: center;
+}
+.textAndLottie{
+    background-color: #fdfdfd;
+    padding: 32px 16px 32px 16px;
+
+}
+.infoContact{
+    height: 330px;
+    background: linear-gradient(180deg, #434444 0%, #242424 100%);
+    padding: 32px 16px 32px 16px;
+    align-items: center;
+}
+.contactQuestion{
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #fdfdfd;
+    margin: 0;
+    margin-bottom: 44px;
+}
+.longParagraph{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    
+}
+.shortParagraph{
+    font-family: 'Roboto Mono', monospace;
+    color: #fdfdfd;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 16px;
+    max-width: 300px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 16px;
+}
+.rocketImg{
+    display: flex;
+    margin: auto;
+    width: 167px;
+    height: 212px;
+}
+.fa-linkedin, .fa-github, .fa-file-pdf{
+    color: #fdfdfd;
+    font-size: 20px;
+    margin-right: 16px;
+}
+.linksContact {
+    text-decoration: none;
+}
+.linksContact :hover {
+    color: #00bef3;
+}
+.linksContact :active{
+    color: #FFC803;
+}
